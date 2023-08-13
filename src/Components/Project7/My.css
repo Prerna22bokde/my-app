@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  background-color: rgba(255, 175, 55, 0.911);
+}
+
+.navbar {
+  --bs-navbar-padding-x: none;
+}
+
+header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 50px;
+  color: white;
+  box-shadow: 5px 3px 15px -5px black;
+  width: 100%;
+  line-height: 100px;
+  background-color: #f5ba13;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.main_note {
+  /* width: 500px; */
+  width: 40%;
+  padding: 15px 10px 5px 10px;
+  margin: 20px auto;
+}
+
+form {
+  box-shadow: 3px 5px 15px -5px black;
+  border-radius: 10px;
+  position: relative;
+  min-height: 50px;
+  color: #ecf0f1;
+  padding: 15px 10px 30px 10px;
+}
+
+input {
+  border: none;
+  outline: none;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: capitalize;
+  background: transparent;
+  width: 100%;
+  line-height: 30px;
+  margin: 10px 0;
+}
+
+textarea {
+  border: none;
+  outline: none;
+  /* border-radius: 50%; */
+  /* box-shadow: 5px 5px 15px -5px black; */
+  cursor: pointer;
+  width: 100%;
+  line-height: 30px;
+  background: transparent;
+}
+
+.main_button {
+  background: transparent;
+  z-index: 222;
+  cursor: pointer;
+  color: #f4b400 !important;
+  font-size: 20px !important;
+  background-color: white !important;
+  /* font-weight: bolder; */
+  border-radius: 50% !important;
+  position: fixed;
+  float: right;
+  box-shadow: 5px 10px 16px -8px black;
+}
+
+.main_button:hover {
+  color: white !important;
+  background: #f4b400 !important;
+}
+
+.note {
+  background: white;
+  width: 200px;
+
+  /* box-shadow: 0 2px 5px black; */
+  box-shadow: 3px 5px 15px -5px black;
+  border-radius: 7px;
+  margin: 16px;
+  padding: 10px;
+  float: left;
+}
+
+.note h1 {
+  font-size: 1.5em;
+  margin-bottom: 6px;
+  float: left;
+}
+
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  float: left;
+}
+
+.deleteicon {
+  /* float: left !important; */
+  /* padding: 10px; */
+  /* margin: 10px; */
+  width: 0.7em;
+  height: 0.7em;
+  /* outline: none; */
+  /* border: none; */
+  /* background: transparent; */
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f4b400;
+  border: none;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 3px 3px 15px -10px black;
+  border-radius: 50%;
+}
+
+.note .deleteicon:hover {
+  background-color: #f5ba13;
+  color: white;
+}
+
+@media (max-width: 775) {
+}

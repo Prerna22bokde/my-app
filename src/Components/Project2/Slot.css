@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.Slotmachine{
+    margin: 4em 27%;
+border-color: black;
+border-style:ridge;
+height: 40%;
+width: 45%
+/* width: 80vw; */
+
+}
+.slot_inner{
+    text-align: center;
+    font-size: small;
+    /* border-style:ridge; */
+    /* margin: 20px; */
+    width: 100%;
+    
+    /* border-radius: 4px; */
+
+}

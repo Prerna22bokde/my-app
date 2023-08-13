@@ -1,0 +1,112 @@
+.navbar {
+  background-color: #db1e38;
+  text-decoration: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.navbar .container-fluid {
+  justify-content: space-around;
+  text-decoration: none;
+}
+a.active {
+  color: rgb(15, 15, 15);
+  /* border-bottom: 1px solid red; */
+  text-decoration: none;
+}
+
+a {
+  color: rgb(238, 238, 245);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: large;
+}
+
+.error {
+  background-color: cornflowerblue;
+  width: 100%;
+  height: 100vh;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error h1 {
+  font-size: 70px;
+  font-weight: bolder;
+  color: rgb(66, 66, 235);
+}
+
+.error p {
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(66, 66, 235);
+}
+
+.homepage {
+  background-color: cadetblue;
+  width: 100%;
+  height: 100vh;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage h1 {
+  font-size: 70px;
+  font-weight: bolder;
+  color: rgb(236, 183, 103);
+}
+
+.homepage p {
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(236, 183, 103);
+}
+
+.aboutpage {
+  background-color: cornflowerblue;
+  width: 100%;
+  height: 100vh;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutpage h1 {
+  font-size: 70px;
+  font-weight: bolder;
+  color: rgb(66, 66, 235);
+}
+
+.aboutpage p {
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(66, 66, 235);
+}
+
+.contactpage {
+  background-color: cornflowerblue;
+  width: 100%;
+  height: 100vh;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactpage h1 {
+  font-size: 70px;
+  font-weight: bolder;
+  color: rgb(66, 66, 235);
+}
+
+.contactpage p {
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(66, 66, 235);
+}
