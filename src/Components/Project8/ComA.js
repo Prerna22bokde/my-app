@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import "../Project8/Language.css";
 
 // pokemon api show
 
@@ -46,6 +47,10 @@ export default function ComA() {
         <option value="4">4</option>
         <option value="5">5</option>
       </select>
+      <div id="google_translate_element"></div>
+      {/* <div id="google_element"></div> */}
+
+      {/* <script src="main.js"></scrip> */}
     </>
   );
 }
